@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools">
+
+  <data>
+
+    <variable
+      name="viewModel"
+      type="com.fundtastic.mymovie.view.ui.main.MainActivityViewModel" />
+
+    <variable
+      name="adapter"
+      type="com.fundtastic.mymovie.view.adapter.PeopleAdapter" />
+  </data>
+
+  <androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/recyclerView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    app:adapter="@{adapter}"
+    app:adapterPersonList="@{viewModel.peopleLiveData}"
+    app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+    app:personPagination="@{viewModel}"
+    app:spanCount="2"
+    tools:listitem="@layout/item_person" />
+</layout>
