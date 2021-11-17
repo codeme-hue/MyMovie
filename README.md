@@ -3,6 +3,8 @@ Movies App with themovie db
 
 Using
 - MVVM Architecture
+- Data Binding
+- Live Binding
 - Room Persistance
 - Dagger for dependency Injection
 - Retrofit2
