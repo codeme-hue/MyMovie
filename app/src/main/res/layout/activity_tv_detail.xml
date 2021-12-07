@@ -7,19 +7,19 @@
 
     <variable
       name="tv"
-      type="com.fundtastic.mymovie.models.entity.Tv" />
+      type="com.haekal.mymovie.models.entity.Tv" />
 
     <variable
       name="viewModel"
-      type="com.fundtastic.mymovie.view.ui.details.tv.TvDetailViewModel" />
+      type="com.haekal.mymovie.view.ui.details.tv.TvDetailViewModel" />
 
     <variable
       name="videoAdapter"
-      type="com.fundtastic.mymovie.view.adapter.VideoListAdapter" />
+      type="com.haekal.mymovie.view.adapter.VideoListAdapter" />
 
     <variable
       name="reviewAdapter"
-      type="com.fundtastic.mymovie.view.adapter.ReviewListAdapter" />
+      type="com.haekal.mymovie.view.adapter.ReviewListAdapter" />
   </data>
 
   <androidx.coordinatorlayout.widget.CoordinatorLayout

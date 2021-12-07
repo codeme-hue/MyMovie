@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:tools="http://schemas.android.com/tools"
-  package="com.fundtastic.mymovie">
+  package="com.haekal.mymovie">
 
   <uses-permission android:name="android.permission.INTERNET"/>
 
   <application
-    android:name=".TheMoviesApplication"
+    android:name="com.haekal.mymovie.TheMoviesApplication"
     android:allowBackup="true"
     android:icon="@mipmap/ic_launcher"
     android:label="@string/app_name"
@@ -15,19 +15,19 @@
     android:theme="@style/Theme.MyMovie"
     android:usesCleartextTraffic="true"
     tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-    <activity android:name=".view.ui.main.MainActivity">
+    <activity android:name="com.haekal.mymovie.view.ui.main.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
     <activity
-      android:name=".view.ui.details.movie.MovieDetailActivity"
+      android:name="com.haekal.mymovie.view.ui.details.movie.MovieDetailActivity"
       android:theme="@style/DetailTheme" />
     <activity
-      android:name=".view.ui.details.tv.TvDetailActivity"
+      android:name="com.haekal.mymovie.view.ui.details.tv.TvDetailActivity"
       android:theme="@style/DetailTheme" />
-    <activity android:name=".view.ui.details.person.PersonDetailActivity" />
+    <activity android:name="com.haekal.mymovie.view.ui.details.person.PersonDetailActivity" />
   </application>
 
 </manifest>

@@ -5,11 +5,11 @@
 
     <variable
       name="person"
-      type="com.fundtastic.mymovie.models.entity.Person" />
+      type="com.haekal.mymovie.models.entity.Person" />
 
     <variable
       name="viewModel"
-      type="com.fundtastic.mymovie.view.ui.details.person.PersonDetailViewModel" />
+      type="com.haekal.mymovie.view.ui.details.person.PersonDetailViewModel" />
   </data>
 
   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"

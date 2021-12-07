@@ -7,7 +7,7 @@
 
     <variable
       name="movie"
-      type="com.fundtastic.mymovie.models.entity.Movie" />
+      type="com.haekal.mymovie.models.entity.Movie" />
   </data>
 
   <LinearLayout

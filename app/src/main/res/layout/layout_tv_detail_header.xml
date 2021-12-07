@@ -7,7 +7,7 @@
 
     <variable
       name="tv"
-      type="com.fundtastic.mymovie.models.entity.Tv" />
+      type="com.haekal.mymovie.models.entity.Tv" />
   </data>
 
   <LinearLayout

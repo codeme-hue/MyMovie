@@ -7,19 +7,19 @@
 
     <variable
       name="movie"
-      type="com.fundtastic.mymovie.models.entity.Movie" />
+      type="com.haekal.mymovie.models.entity.Movie" />
 
     <variable
       name="viewModel"
-      type="com.fundtastic.mymovie.view.ui.details.movie.MovieDetailViewModel" />
+      type="com.haekal.mymovie.view.ui.details.movie.MovieDetailViewModel" />
 
     <variable
       name="videoAdapter"
-      type="com.fundtastic.mymovie.view.adapter.VideoListAdapter" />
+      type="com.haekal.mymovie.view.adapter.VideoListAdapter" />
 
     <variable
       name="reviewAdapter"
-      type="com.fundtastic.mymovie.view.adapter.ReviewListAdapter" />
+      type="com.haekal.mymovie.view.adapter.ReviewListAdapter" />
   </data>
 
   <LinearLayout

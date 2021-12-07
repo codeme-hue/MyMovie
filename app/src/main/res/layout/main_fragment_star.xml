@@ -7,11 +7,11 @@
 
     <variable
       name="viewModel"
-      type="com.fundtastic.mymovie.view.ui.main.MainActivityViewModel" />
+      type="com.haekal.mymovie.view.ui.main.MainActivityViewModel" />
 
     <variable
       name="adapter"
-      type="com.fundtastic.mymovie.view.adapter.PeopleAdapter" />
+      type="com.haekal.mymovie.view.adapter.PeopleAdapter" />
   </data>
 
   <androidx.recyclerview.widget.RecyclerView
